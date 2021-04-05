@@ -1,0 +1,36 @@
+.container-nosotros {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+
+
+
+  .nosotros-image-item {
+   
+    .imagen-nos {
+      width: 100%;
+
+    }
+
+  }
+
+  .nosotros-text-item {
+    display: flex;
+    flex-direction: column;
+  
+
+    .parrafo-nos {
+      padding: 63px;
+      padding-left: 0;
+      font-size: 20px;
+      color: #010e1e;
+      font-weight: bolder;
+      text-align:left;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,225 @@
+body {
+  color: #010e1e;
+  background-color: #ffffff;
+}
+
+section {
+  background-color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  color: #010e1e;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bolder;
+  padding-left: 63px;
+  padding-top: 30px;
+}
+
+/* principio navbar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(27, 27, 44, 0.8);
+
+  font-size: 16px;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  padding: 5px;
+  z-index: 3;
+  position: fixed;
+}
+
+.logo-item {
+  width: 47px;
+}
+
+li {
+  display: inline;
+  font-family: "Nunito", sans-serif;
+  padding: 20px;
+}
+
+.menu:hover {
+  color: rgb(184, 159, 184);
+
+  font-family: "Nunito", sans-serif;
+}
+
+.menu {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* fin navbar */
+
+/* principio main */
+main {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.title-main {
+  position: absolute;
+  top: 392px;
+  left: 172px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+.title-main:hover {
+  color: #b62997d8;
+  transform: scale(1.5);
+  transition: all 2s;
+}
+
+.foto {
+  width: 100% auto;
+}
+/* fin main */
+
+/* comienzo Nosotros */
+
+.imagen-nos {
+  width: 100px auto;
+}
+
+.container-nosotros {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+}
+
+.nosotros-image-item {
+  display: flex;
+
+  width: 50%;
+  height: 400px;
+  background-color: #ffffff;
+
+  color: #010e1e;
+}
+
+.nosotros-text-item {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.parrafo-nos {
+  padding: 63px;
+  font-size: 20px;
+  color: #010e1e;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+/* Fin Nosotros */
+
+/* comienza porfolio */
+.portfolio {
+  background-color: #010e1e;
+  height: 600px;
+  color: #ffffff;
+}
+.center {
+  position: absolute;
+  left: 350px;
+}
+/* .container-portfolio {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #010e1e;
+}
+
+.image-item {
+  width: 40% auto;
+} */
+/* .size-image {
+  height: 400px;
+} */
+
+/* comienzo style sevicios */
+
+.container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  height: 500px;
+}
+.box-item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  box-shadow: 10px 10px 5px rgb(65, 59, 59);
+  border: 4px solid #ffffff;
+  color: #010e1e;
+  padding: 20px;
+  margin: 20px;
+}
+
+.title-box {
+  padding: 10px;
+  margin: 10px;
+}
+
+.text-box {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* fin style servicios */
+
+/* contacto */
+.contacto {
+  background-color: #010e1e;
+  font-size: 20px;
+  width: 100%;
+  height: 450px;
+  color: #ffffff;
+  height: 500px;
+}
+.container-contacto {
+  display: flex;
+  justify-content: space-between;
+}
+.form-item {
+  margin-left: 30px;
+  background-color: #010e1e;
+  box-shadow: 10px 5px 5px black;
+  width: 30%;
+  padding: 30px;
+}
+.parrafo-contacto {
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  color: #010e1e;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  padding: 20px;
+}
+
+.logo-footer {
+  width: 40px;
+}
