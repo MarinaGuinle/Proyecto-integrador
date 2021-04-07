@@ -1,33 +1,30 @@
 
 
 .container-box {
-  position: relative;
-  width: 100%;
-  margin: 10px 0;
-  border-radius: 5px;
-  height: 600px;
+ display: flex;
+ justify-content: center;
+ padding:40px;
+
 
 
   .box-item {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    width: 20%;
+    height: 10%;
     
-    box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
     border: 2px solid #010e1e;
     color: #010e1e;
     padding: 20px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 4px;
 
-    .title-box {
-      padding: 10px;
-      margin: 10px;
+      
+    &:hover {
+      box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
+      transform: scale(1.03);
+      transition: all 1s;
+
+      
     }
 
-    .text-box {
-      padding: 10px;
-      margin: 10px;
-    }
   }
 }

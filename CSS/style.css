@@ -77,37 +77,30 @@
 }
 
 .container-box {
-  position: relative;
-  width: 100%;
-  margin: 10px 0;
-  border-radius: 5px;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
 .container-box .box-item {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
+  width: 20%;
+  height: 10%;
   border: 2px solid #010e1e;
   color: #010e1e;
   padding: 20px;
   margin: 20px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
-.container-box .box-item .title-box {
-  padding: 10px;
-  margin: 10px;
-}
-.container-box .box-item .text-box {
-  padding: 10px;
-  margin: 10px;
+.container-box .box-item:hover {
+  box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
+  transform: scale(1.03);
+  transition: all 1s;
 }
 
 .portfolio-container {
   position: relative;
   overflow: hidden;
   margin: 10px 0;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .portfolio-container .portfolio-text {
   position: absolute;
