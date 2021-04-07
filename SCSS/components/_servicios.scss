@@ -1,17 +1,18 @@
 
 
 .container-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  position: relative;
   width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
   height: 600px;
+
 
   .box-item {
     display: flex;
     flex-direction: column;
     width: 30%;
+    
     box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
     border: 2px solid #010e1e;
     color: #010e1e;
