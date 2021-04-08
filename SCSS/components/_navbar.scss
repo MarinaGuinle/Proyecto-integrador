@@ -9,24 +9,25 @@ justify-content:space-around;
     font-family: "Nunito", sans-serif;
     padding: 5px;
     z-index: 3;
+    border: 1px solid #fff;
    
 
 
   .logo-item {
-    width: 45px;
+    width: 40px;
   }
 
   a {
     display: inline;
     font-family: "Nunito", sans-serif;
-    padding: 15px;
+    padding: 13px;
 
       text-decoration: none;
       color: #fff;
       font-size: 16px;
 
       &:hover {
-        color:#b62997d8;
+        color:#1664f5;
     }
   }
 }

@@ -15,20 +15,21 @@
   font-family: "Nunito", sans-serif;
   padding: 5px;
   z-index: 3;
+  border: 1px solid #fff;
 }
 .navbar-container nav .logo-item {
-  width: 45px;
+  width: 40px;
 }
 .navbar-container nav a {
   display: inline;
   font-family: "Nunito", sans-serif;
-  padding: 15px;
+  padding: 13px;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
 }
 .navbar-container nav a:hover {
-  color: #b62997d8;
+  color: #1664f5;
 }
 
 .container-main {
@@ -78,8 +79,8 @@
 
 .container-box {
   display: flex;
-  justify-content: center;
-  padding: 40px;
+  justify-content: space-between;
+  padding: 50px;
 }
 .container-box .box-item {
   width: 20%;
@@ -87,11 +88,10 @@
   border: 2px solid #010e1e;
   color: #010e1e;
   padding: 20px;
-  margin: 20px;
   border-radius: 4px;
 }
 .container-box .box-item:hover {
-  box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.582);
+  box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
   transform: scale(1.03);
   transition: all 1s;
 }
@@ -99,7 +99,7 @@
 .portfolio-container {
   position: relative;
   overflow: hidden;
-  margin: 10px 0;
+  margin: 20px 0;
   border-radius: 4px;
 }
 .portfolio-container .portfolio-text {
@@ -124,9 +124,9 @@
   transition: all 0.8s;
 }
 .portfolio-container img:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .contacto {
