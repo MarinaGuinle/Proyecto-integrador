@@ -190,4 +190,12 @@ body section h2 {
   justify-content: space-between;
 }
 
+.portfolio-gula {
+  padding-top: 10%;
+}
+.portfolio-gula .col-sm {
+  margin: 0;
+  padding: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
