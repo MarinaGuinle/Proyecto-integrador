@@ -10,12 +10,13 @@
 }
 .navbar-container nav {
   width: 100%;
-  background-color: rgba(27, 27, 44, 0.76);
+  background-color: rgba(27, 27, 44, 0.781);
   font-size: 16px;
   font-family: "Nunito", sans-serif;
   padding: 5px;
   z-index: 3;
   border: 1px solid #fff;
+  border-radius: 2px;
 }
 .navbar-container nav .logo-item {
   width: 40px;
@@ -29,7 +30,7 @@
   font-size: 16px;
 }
 .navbar-container nav a:hover {
-  color: #1664f5;
+  color: #2F87D9;
 }
 
 .container-main {
@@ -136,6 +137,7 @@
   height: 600px;
   color: #fff;
   height: 600px;
+  background-image: linear-gradient(to right, #434343 0%, #010e1e);
 }
 .contacto h2 {
   padding-left: 2%;
@@ -176,6 +178,7 @@ body section {
   font-family: "Nunito", sans-serif;
   color: #010e1e;
   font-weight: bold;
+  height: 600px;
 }
 body section h2 {
   font-weight: bolder;
