@@ -79,16 +79,16 @@
 }
 
 .container-box {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 25px;
 }
 .container-box .box-item {
-  width: 20%;
-  height: 10%;
   border: 2px solid #010e1e;
   color: #010e1e;
-  padding: 20px;
+  padding: 30px;
+  margin: 50px;
   border-radius: 4px;
 }
 .container-box .box-item:hover {
@@ -178,7 +178,6 @@ body section {
   font-family: "Nunito", sans-serif;
   color: #010e1e;
   font-weight: bold;
-  height: 600px;
 }
 body section h2 {
   font-weight: bolder;
