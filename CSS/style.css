@@ -82,13 +82,12 @@
   position: relative;
   overflow: hidden;
   margin: 0;
-  padding: 25px;
 }
 .container-box .box-item {
-  border: 2px solid #010e1e;
+  border: 1px solid #010e1e;
   color: #010e1e;
-  padding: 30px;
-  margin: 50px;
+  padding: 40px;
+  margin: 40px;
   border-radius: 4px;
 }
 .container-box .box-item:hover {
@@ -137,7 +136,7 @@
   height: 600px;
   color: #fff;
   height: 600px;
-  background-image: linear-gradient(to right, #434343 0%, #010e1e);
+  background-image: linear-gradient(to right, #43434381 0%, #010e1e);
 }
 .contacto h2 {
   padding-left: 2%;
@@ -174,6 +173,7 @@ body {
   overflow-x: hidden;
 }
 body section {
+  margin-top: 5%;
   background-color: #fff;
   font-family: "Nunito", sans-serif;
   color: #010e1e;
@@ -195,6 +195,11 @@ body section h2 {
 .portfolio-gula .col-sm {
   margin: 0;
   padding: 25px;
+}
+.portfolio-gula .col-sm img:hover {
+  box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
+  transform: scale(1.03);
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
