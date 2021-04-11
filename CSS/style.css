@@ -59,7 +59,7 @@
 }
 .container-main .title-main button {
   margin: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .container-main .title-main button:hover {
   color: rgba(27, 27, 44, 0.8);
@@ -155,10 +155,7 @@
   box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
   transform: scale(1.01);
   transition: all 1s;
-}
-.contacto h3 {
-  padding-top: 5%;
-  padding-left: 2%;
+  background-color: rgba(27, 27, 44, 0.911);
 }
 .contacto p {
   margin-left: 2%;
