@@ -39,6 +39,9 @@
   text-align: center;
   overflow: hidden;
 }
+.container-main h1 {
+  display: none;
+}
 .container-main .title-main {
   position: absolute;
   top: 40%;
@@ -47,6 +50,7 @@
   color: #ffffff;
 }
 .container-main .title-main .sub {
+  padding: 20px;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
 }
@@ -54,7 +58,11 @@
   width: 60%;
 }
 .container-main .title-main button {
+  margin: 20px;
   font-family: "Poppins", sans-serif;
+}
+.container-main .title-main button:hover {
+  color: rgba(27, 27, 44, 0.8);
 }
 .container-main .title-main:hover {
   transform: scale(1.05);

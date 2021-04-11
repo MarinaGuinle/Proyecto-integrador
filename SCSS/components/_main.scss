@@ -4,6 +4,12 @@
   text-align: center;
   overflow: hidden;
 
+   h1 {
+   display: none;
+  }
+
+
+
   .title-main {
     position: absolute;
     top: 40%;
@@ -13,6 +19,7 @@
     color: #ffffff;
 
     .sub{
+      padding: 20px;
       font-size:18px ;
       font-family: "Nunito", sans-serif;
 
@@ -23,8 +30,13 @@
    }
 
     button {
+     margin: 20px;
       font-family: "Poppins", sans-serif;
      
+      &:hover{
+        color: rgba(27, 27, 44, 0.8);
+
+      }
     }
 
     &:hover {
