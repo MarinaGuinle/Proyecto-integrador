@@ -54,12 +54,27 @@
   font-size: 18px;
   font-family: "Nunito", sans-serif;
 }
+@media (max-width: 768px) {
+  .container-main .title-main .sub {
+    display: none;
+  }
+}
 .container-main .title-main img {
   width: 60%;
+}
+@media (max-width: 768px) {
+  .container-main .title-main img {
+    width: 100%;
+  }
 }
 .container-main .title-main button {
   margin: 20px;
   font-family: "Nunito", sans-serif;
+}
+@media (max-width: 768px) {
+  .container-main .title-main button {
+    display: none;
+  }
 }
 .container-main .title-main button:hover {
   color: rgba(27, 27, 44, 0.8);

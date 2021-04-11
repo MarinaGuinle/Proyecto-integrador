@@ -8,8 +8,6 @@
    display: none;
   }
 
-
-
   .title-main {
     position: absolute;
     top: 40%;
@@ -21,18 +19,23 @@
     .sub{
       padding: 20px;
       font-size:18px ;
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito", sans-serif;  
 
-      
+    
+     @media (max-width: 768px) { display: none; }
+    
+    
     }
-   img {
-     width: 60%;
-   }
+
+    img {
+      width: 60%;
+      @media (max-width: 768px) { width: 100%; }
+    }
 
     button {
      margin: 20px;
      font-family: "Nunito", sans-serif;
-     
+     @media (max-width: 768px) { display: none; }
       &:hover{
         color: rgba(27, 27, 44, 0.8);
 
@@ -40,11 +43,11 @@
     }
 
     &:hover {
-     
       transform: scale(1.05);
       transition: all 2s;
     }
   }
+
   .foto {
     width: 100vw ;
   }
