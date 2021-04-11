@@ -41,15 +41,23 @@
 }
 .container-main .title-main {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  font-size: 20px;
+  top: 40%;
+  right: 40%;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
+.container-main .title-main .sub {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+.container-main .title-main img {
+  width: 60%;
+}
+.container-main .title-main button {
+  font-family: "Poppins", sans-serif;
+}
 .container-main .title-main:hover {
-  color: #b62997d8;
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: all 2s;
 }
 .container-main .foto {
@@ -133,7 +141,7 @@
   background-color: #010e1eef;
   border: 1px border #010e1eef;
   color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .contacto:hover {
   box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
@@ -144,13 +152,16 @@
   padding-top: 5%;
   padding-left: 2%;
 }
+.contacto p {
+  margin-left: 2%;
+}
 .contacto .container-contacto .form-item {
   margin-left: 10%;
   padding: 10px;
   border-radius: 5px;
 }
 .contacto .container-contacto .parrafo-contacto {
-  padding: 10px;
+  padding: 40px;
 }
 
 .footer-container {
@@ -164,7 +175,7 @@
   padding: 20px;
 }
 .footer-container .social-media {
-  width: 40px;
+  width: 30px;
 }
 
 body {
@@ -179,9 +190,9 @@ body section {
   color: #010e1e;
   font-weight: bold;
 }
-body section h2 {
-  font-weight: bolder;
+body section h3 {
   padding-top: 5%;
+  padding-left: 2%;
 }
 
 .contacto .container-contacto, .footer-container {

@@ -1,26 +1,26 @@
 .contacto {
-  
   background-color:  #010e1eef;
- 
   border: 1px border #010e1eef;
   color: $color-light;
 
-  border-radius:2px ;
+  border-radius:4px ;
       
   &:hover {
     box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
     transform: scale(1.01);
     transition: all 1s;
+  ;
   }
-
-
-
 
   h3{
     padding-top: 5%;
     padding-left: 2%
   }
 
+  p {
+    margin-left:2%;
+    
+  }
 
 
   .container-contacto {
@@ -28,14 +28,13 @@
 
     .form-item {
       margin-left: 10%;
-     
       padding: 10px;
       border-radius: 5px;
       
     }
     .parrafo-contacto {
  
-      padding: 10px;
+      padding: 40px;
      
     }
   }

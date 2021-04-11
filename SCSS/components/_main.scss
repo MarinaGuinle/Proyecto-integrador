@@ -6,15 +6,30 @@
 
   .title-main {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    font-size: 20px;
+    top: 40%;
+    right: 40%;
+    
     font-family: "Poppins", sans-serif;
     color: #ffffff;
-   
+
+    .sub{
+      font-size:18px ;
+      font-family: "Nunito", sans-serif;
+
+      
+    }
+   img {
+     width: 60%;
+   }
+
+    button {
+      font-family: "Poppins", sans-serif;
+     
+    }
+
     &:hover {
-      color: #b62997d8;
-      transform: scale(1.2);
+     
+      transform: scale(1.05);
       transition: all 2s;
     }
   }
