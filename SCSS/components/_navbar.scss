@@ -1,6 +1,6 @@
 .navbar-container {
-  display: flex;
-justify-content:space-around;
+ display: flex;
+ justify-content:space-around;
 
   nav{
     width: 100%;
@@ -13,9 +13,9 @@ justify-content:space-around;
     border-radius: 2px;
 
 
-  .logo-item {
-    width: 40px;
-  }
+   .logo-item {
+     width: 40px;
+    }
 
   a {
     display: inline;
@@ -30,5 +30,6 @@ justify-content:space-around;
         color:#2F87D9;
     }
   }
-}
+  }
+
 }

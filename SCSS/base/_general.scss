@@ -2,20 +2,25 @@ body {
   color: #010e1e;
   background-color: #fff;
   overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+
+  @media (max-width: 768px) { font-size: 20px }
+    
 
 
   section {
     margin-top: 5%;
     background-color: #fff;
-    font-family: "Nunito", sans-serif;
     color: #010e1e;
-    font-weight: bold;
-   
-
+    
+    font-family: "Nunito", sans-serif;
+    @media (max-width: 768px) { font-size: 12px }
 
     h3{
        padding-top: 5%;
-       padding-left: 2%
+    
+       font-size: 28px;
+       @media (max-width: 768px) { font-size: 24px }
      }
   }
 }

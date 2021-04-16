@@ -1,22 +1,17 @@
 
 
 .container-box {
- position: relative;
- overflow: hidden;
- margin:0;
 
- 
+
+
   .box-item {
  
     border:1px solid #010e1e;
     color: #010e1e;
     padding: 40px;
     margin: 40px;
-   
     border-radius: 4px;
-
-    
-      
+ 
     &:hover {
       box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
       transform: scale(1.03);

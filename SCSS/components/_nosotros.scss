@@ -6,9 +6,8 @@
    
 
   .nosotros-image-item {
-   
-    .imagen-nos {
-      width: 100%;
+    .img-fluid {
+      max-width: 100%;
 
     }
 
@@ -22,10 +21,10 @@
     .parrafo-nos {
       padding: 63px;
       padding-left: 0;
-      font-size: 20px;
       color: #010e1e;
       font-weight: bolder;
       text-align:left;
+      @media (max-width: 768px) { font-size: 14px }
     }
   }
 }
