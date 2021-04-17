@@ -19,7 +19,8 @@
     .sub{
       padding: 20px;
       font-size:18px ;
-      font-family: "Nunito", sans-serif;  
+      font-family: 'Roboto', sans-serif;
+     
 
     
      @media (max-width: 768px) { display: none; }
@@ -34,7 +35,7 @@
 
     button {
      margin: 20px;
-     font-family: "Nunito", sans-serif;
+     font-family: 'Roboto', sans-serif;
      @media (max-width: 768px) { display: none; }
       &:hover{
         color: rgba(27, 27, 44, 0.8);

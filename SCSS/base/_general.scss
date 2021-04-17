@@ -2,7 +2,7 @@ body {
   color: #010e1e;
   background-color: #fff;
   overflow-x: hidden;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   @media (max-width: 768px) { font-size: 20px }
     
@@ -13,12 +13,12 @@ body {
     background-color: #fff;
     color: #010e1e;
     
-    font-family: "Nunito", sans-serif;
-    @media (max-width: 768px) { font-size: 12px }
+    font-family: 'Roboto', sans-serif;
+    @media (max-width: 768px) { font-size: 14px }
 
     h3{
        padding-top: 5%;
-    
+      font-weight: bolder;
        font-size: 28px;
        @media (max-width: 768px) { font-size: 24px }
      }

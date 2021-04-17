@@ -12,7 +12,7 @@
   width: 100%;
   background-color: rgba(27, 27, 44, 0.781);
   font-size: 16px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 5px;
   z-index: 3;
   border: 1px solid #fff;
@@ -23,7 +23,7 @@
 }
 .navbar-container nav a {
   display: inline;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 13px;
   text-decoration: none;
   color: #fff;
@@ -52,7 +52,7 @@
 .container-main .title-main .sub {
   padding: 20px;
   font-size: 18px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
   .container-main .title-main .sub {
@@ -69,7 +69,7 @@
 }
 .container-main .title-main button {
   margin: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
   .container-main .title-main button {
@@ -91,7 +91,7 @@
   position: relative;
   overflow: hidden;
   margin: 10px 0;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .container-nosotros .nosotros-image-item .img-fluid {
   max-width: 100%;
@@ -99,6 +99,9 @@
 .container-nosotros .nosotros-text-item {
   display: flex;
   flex-direction: column;
+}
+.container-nosotros .nosotros-text-item h3 {
+  padding-top: 0;
 }
 .container-nosotros .nosotros-text-item .parrafo-nos {
   padding: 63px;
@@ -119,6 +122,9 @@
   padding: 40px;
   margin: 40px;
   border-radius: 4px;
+}
+.container-box .box-item h5 {
+  font-weight: bolder;
 }
 .container-box .box-item:hover {
   box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
@@ -142,6 +148,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 15px;
+  font-weight: 300;
 }
 .portfolio-container .portfolio-text p {
   color: #fff;
@@ -189,7 +196,7 @@
   color: #010e1e;
   background-color: #fff;
   font-size: 15px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 15px;
 }
 .footer-container .social-media {
@@ -200,7 +207,7 @@ body {
   color: #010e1e;
   background-color: #fff;
   overflow-x: hidden;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
   body {
@@ -211,15 +218,16 @@ body section {
   margin-top: 5%;
   background-color: #fff;
   color: #010e1e;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
   body section {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 body section h3 {
   padding-top: 5%;
+  font-weight: bolder;
   font-size: 28px;
 }
 @media (max-width: 768px) {

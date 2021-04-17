@@ -11,6 +11,10 @@
     padding: 40px;
     margin: 40px;
     border-radius: 4px;
+
+    h5{
+      font-weight: bolder;
+    }
  
     &:hover {
       box-shadow: 10px 10px 5px rgba(65, 59, 59, 0.541);
