@@ -46,7 +46,6 @@
   position: absolute;
   top: 40%;
   right: 40%;
-  font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
 .container-main .title-main .sub {
@@ -60,11 +59,12 @@
   }
 }
 .container-main .title-main img {
-  width: 60%;
+  width: 70%;
 }
 @media (max-width: 768px) {
   .container-main .title-main img {
     width: 100%;
+    padding-top: 30px;
   }
 }
 .container-main .title-main button {
