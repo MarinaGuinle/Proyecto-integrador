@@ -35,8 +35,16 @@
     }
 
     button {
+      
      margin: 20px;
      font-family: 'Roboto', sans-serif;
+      a {  text-decoration: none;
+        color :#ffffff;
+        &:hover {
+           color:#010e1e; ;
+        }
+    }
+
      @media (max-width: 768px) { display: none; }
       &:hover{
         color: rgba(27, 27, 44, 0.8);
