@@ -12,8 +12,6 @@
     position: absolute;
     top: 40%;
     right: 40%;
-    
-    
     color: #ffffff;
 
     .sub{
@@ -21,10 +19,7 @@
       font-size:18px ;
       font-family: 'Roboto', sans-serif;
      
-
-    
      @media (max-width: 768px) { display: none; }
-    
     
     }
 
@@ -35,21 +30,18 @@
     }
 
     button {
-      
      margin: 20px;
      font-family: 'Roboto', sans-serif;
+
       a {  text-decoration: none;
         color :#ffffff;
-        &:hover {
-           color:#010e1e; ;
+          &:hover {
+            color:#010e1e; ;
         }
     }
 
      @media (max-width: 768px) { display: none; }
-      &:hover{
-        color: rgba(27, 27, 44, 0.8);
-
-      }
+ 
     }
 
     &:hover {

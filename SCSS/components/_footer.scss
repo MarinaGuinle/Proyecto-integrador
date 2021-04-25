@@ -5,20 +5,13 @@ footer{
   width: 100%;
   height: 60px;
   border-top:1px solid #010e1e;
-
   
-
-
-
-
   .footer-container {
     @extend %space-between;
    
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     padding: 15px;
-
-
 
     .social-media {
       width: 27px;

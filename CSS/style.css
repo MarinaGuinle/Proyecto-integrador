@@ -84,9 +84,6 @@
     display: none;
   }
 }
-.container-main .title-main button:hover {
-  color: rgba(27, 27, 44, 0.8);
-}
 .container-main .title-main:hover {
   transform: scale(1.05);
   transition: all 2s;
