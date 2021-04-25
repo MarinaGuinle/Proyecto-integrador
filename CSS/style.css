@@ -30,7 +30,8 @@
   font-size: 16px;
 }
 .navbar-container nav a:hover {
-  color: #2F87D9;
+  color: #894fa0;
+  font-weight: bolder;
 }
 
 .container-main {
